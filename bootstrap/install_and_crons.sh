@@ -37,3 +37,5 @@ eval \$COMMAND
 echo "*/5 * * * * $PATH_FILES/spark_jobs.sh $BUCKET_S3 $ENVIRONMENT first_etl.py >> $PATH_FILES/batchjobs.log 2>&1" >> "$PATH_FILES/cron_config
 
 $(echo "crontab $PATH_FILES/cron_config")
+
+exit 0

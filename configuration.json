@@ -1,0 +1,16 @@
+[
+  {
+     "Classification": "spark-env",
+     "Configurations": [
+       {
+         "Classification": "export",
+         "Properties": {
+            "PYSPARK_PYTHON": "/usr/bin/python3",
+            "BUCKET_S3":"s3://deploy-spark",
+            "AWS_ACCESS_KEY_ID":"your key",
+	    "AWS_SECRET_ACCESS_KEY":"your_secret_key"
+          }
+       }
+    ]
+  }
+]

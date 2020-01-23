@@ -2,9 +2,9 @@
 
 ###### Start to Install libraries
 
-#sudo sed -i -e '$a\export PYSPARK_PYTHON=/usr/bin/python3' /etc/spark/conf/spark-env.sh
-#sudo pip-3.6 install pandas==0.20.3
-#sudo pip-3.6 install scikit-learn==0.19.1
+sudo sed -i -e '$a\export PYSPARK_PYTHON=/usr/bin/python3' /etc/spark/conf/spark-env.sh
+sudo pip-3.6 install pandas==0.20.3
+sudo pip-3.6 install scikit-learn==0.19.1
 
 ###### End to Install libraries
 

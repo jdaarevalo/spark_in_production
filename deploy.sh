@@ -13,4 +13,3 @@ fi
 aws s3 rm $BUCKET_S3/$ENVIRONMENT --recursive
 aws s3 cp --recursive scripts/ $BUCKET_S3/$ENVIRONMENT/scripts --exclude "*.ipynb"
 aws s3 cp --recursive bootstrap/ $BUCKET_S3/$ENVIRONMENT/bootstrap
-aws s3 cp --recursive data/ $BUCKET_S3/$ENVIRONMENT/data
